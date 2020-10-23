@@ -2,8 +2,8 @@
 
 namespace DesignPattern.Strategy.Demo.Business.Strategies.Interfaces
 {
-    public interface IPurchaseStrategy
+    public interface IInvoiceStrategy
     {
-        public decimal GetTaxFor(Order order);
+        public void Generate(Order order);
     }
 }
